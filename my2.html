@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decryption Page</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+
+    <h1>CYBERNUN- Decryption</h1>
+
+    <div class="container">
+        <label for="encrypted">Enter Encrypted Message (Hex):</label>
+        <input type="text" id="encrypted" placeholder="Encrypted Hex Message">
+
+        <label for="key">Enter Decryption Key:</label>
+        <input type="text" id="key" placeholder="Decryption Key">
+
+        <button onclick="decryptMessage()">Decrypt</button>
+
+        <div class="output">
+            <h3>Decrypted Message:</h3>
+            <p id="decrypted"></p>
+        </div>
+
+        <br>
+        <a href="my.html">Go to Encryption Page</a>
+    </div>
+
+    <script src="k.js"></script>
+
+</body>
+</html>
